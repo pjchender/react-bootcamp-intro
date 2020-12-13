@@ -14,13 +14,13 @@ function App() {
           </p>
         <a
           className="App-link"
-          href="/dom-manipulate.html"
+          href={`${ process.env.PUBLIC_URL }/dom-manipulate.html`}
         >
           DOM Manipulation
           </a>
         <a
           className="App-link"
-          href="/template-render.html"
+          href={`${ process.env.PUBLIC_URL }/template-render.html`}
         >
           Template Rendering
           </a>
